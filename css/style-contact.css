@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --main_bg: #ffffff;
+    --logo_first: #191919;
+    --logo_second: #6c55f9;
+    --links_color: #9999ad;
+    --describtion_color: #6b6a8b;
+    --costumers_bg: #f6f5fc;
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/***************************start page section part***************************/
+.page_section .section_bg {
+    height: 350px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: var(--costumers_bg);
+}
+
+.page_section .section_bg ul {
+    padding-top: 6%;
+    list-style: none;
+}
+
+.page_section .section_bg ul a {
+    text-decoration: none;
+}
+
+.page_section .section_bg ul .active {
+    color: var(--logo_second);
+}
+
+.page_section .section_bg ul .unactivated {
+    color: var(--describtion_color);
+}
+
+.page_section .section_bg h2 {
+    font-size: 3rem;
+    padding-left: 35px;
+    color: var(--describtion_color);
+}
+
+/************************** end page section part ***************************/
+/***************************start page section part***************************/
+.page_section .section_bg {
+    height: 350px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: var(--costumers_bg);
+}
+
+.page_section .section_bg ul {
+    padding-top: 6%;
+    list-style: none;
+}
+
+.page_section .section_bg ul a {
+    text-decoration: none;
+}
+
+.page_section .section_bg ul .active {
+    color: var(--logo_second);
+}
+
+.page_section .section_bg ul .unactivated {
+    color: var(--describtion_color);
+}
+
+.page_section .section_bg h2 {
+    font-size: 3rem;
+    padding-left: 35px;
+    color: var(--describtion_color);
+}
+
+/************************** end page section part ***************************/
+/*******************satrt form part*********************/
+.fooorm .line {
+    height: 2px;
+    width: 35px;
+    background-color: var(--logo_second);
+    border: 1px var(--logo_second);
+}
+
+.fooorm h6,
+.fooorm p {
+    color: var(--describtion_color);
+}
+
+.fooorm i {
+    color: var(--logo_second);
+}
+
+.fooorm span {
+    color: var(--describtion_color);
+}
+
+.fooorm form button {
+    background-color: var(--logo_second);
+    color: #ffffff;
+    border: 1px solid;
+    border-color: var(--links_color);
+    border-radius: 25px;
+    height: 45px;
+    width: 150px;
+}
+
+/*******************end form part*********************/
